@@ -17,7 +17,7 @@ body {
     height: 100px;
     position: relative;
 
-    background-color: #fcc;
+    /* background-color: #fcc; */
 }
 
 .led {
@@ -25,7 +25,7 @@ body {
     height: 10px;
     position: absolute;
 
-    background-color: #cfc;
+    /* background-color: #cfc; */
 }
 
 .interface {
@@ -39,7 +39,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    background-color: #ccf;
+    /* background-color: #ccf; */
 }
 
 input {
