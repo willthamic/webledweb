@@ -1,3 +1,15 @@
+var config = {
+    apiKey: "AIzaSyAzkuVWvV79TILB1ZlrK7foRKlrHksPsNE",
+    authDomain: "careml.firebaseapp.com",
+    databaseURL: "https://careml.firebaseio.com",
+    projectId: "careml",
+    storageBucket: "careml.appspot.com",
+    messagingSenderId: "893046241267"
+};
+firebase.initializeApp(config);
+
+var database = firebase.database();
+
 var room = document.getElementById("room");
 var leds = [];
 var scale = 5;
