@@ -1,0 +1,56 @@
+html, body, div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.room {
+    width: 100px;
+    height: 100px;
+    position: relative;
+
+    background-color: #fcc;
+}
+
+.led {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+
+    background-color: #cfc;
+}
+
+.interface {
+    width: calc(100% - 100px);
+    height: calc(100% - 100px);
+    top: 50px;
+    left: 50px;
+    position: absolute;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #ccf;
+}
+
+input {
+    width: 480px;
+    height: 32px;
+    font: 16px arial,sans-serif;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #aaa;
+}
